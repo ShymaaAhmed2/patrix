@@ -1,0 +1,35 @@
+//my theme color 
+$purple-dark: #9926F0 ;
+$purple-light:#BB6EF5;
+$pink:#d122e3;
+$footer:#151414;
+
+//white and gray colors 
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+$primary:  $purple-dark ;
+$secondary:  $pink  ; 
+
+//accordion overides 
+$accordion-padding-y:                     1.5rem;
+$accordion-padding-x:                     1.5rem ;
+$accordion-icon-color:                    $primary;
+$accordion-icon-active-color:             $secondary;
+$accordion-icon-width:                    1.875rem ;
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$accordion-icon-color}' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/><path d=' M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z'/></svg>") ;
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$accordion-icon-active-color}' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/><path d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/></svg>") ;
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+

@@ -1,0 +1,42 @@
+@use'../custom'as *;
+@use'../components/mixins'as *;
+
+.get-start{
+  padding: 4rem 0;
+  background-color: $gray-200;
+}
+.cat-info{
+  padding: 3rem;
+  margin: 1rem 0;
+
+  &-list{
+    position: relative;
+    list-style: none;
+    display: block;
+    padding-top: 0.5rem;
+    margin-bottom: 0.6rem;
+    padding-left: 0.6rem;
+
+    li::before{
+      content:"\f00c";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.form{
+  padding:3rem ;
+
+  button{
+    border: none;
+    color: $white;
+
+    a{
+      color: $white;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}
